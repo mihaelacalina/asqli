@@ -21,7 +21,6 @@ The following code will create a SQLite instance in memory, create a table and i
 
     print_r($Data);
 
-    // Theoretically the garbage collector would close the connection in this case nonetheless.
     $Connection -> Disconnect();
 ```
 
